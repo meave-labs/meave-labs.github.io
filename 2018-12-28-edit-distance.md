@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Levenshtein distance
-use_math: true
+mathjax: true
 ---
 
 Levenshtein distance between two strings
