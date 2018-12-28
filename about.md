@@ -4,7 +4,15 @@ title: About the Author
 permalink: /about/
 ---
 
-The author wanted a blog to post solutions to technical problems. This is it.
+Meave Labs Development Blog
+============
 
-Source code for this blog can be found [here](https://github.com/sgeos/sgeos.github.io).
+<strong>Daniel R. Fiala</strong><br />
+<strong>Meave Labs Ltd.</strong><br />
+7 Whitechapel Road<br />
+Office 410<br />
+London<br />
+United Kingdom, E1 1DU<br />
+
+Source code for this blog can be found [here](https://github.com/meave-labs/meave-labs.github.io).
 
