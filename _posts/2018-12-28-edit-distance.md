@@ -16,5 +16,5 @@ Let $f(i, j)$ be a Levenshtein distance between strings $s[0:j)$ and $t(0:i)$. L
 * If $s[j - 1] = t[i - 1]$, then $f(i, j) = f(i - 1, j - 1)$.
 * Otherwise, there are three possibilities:
   * We can convert string $s[0:j)$ to $t[0:i - 1)$ and add $t[i - 1]$ at the end of the final string: $f(i, j) = f(i - 1, j) + 1$.
-  * Withing string $s[0:j)$, substring $s[0:j - 1)$ can be converted to $t[0:j-1)$ and character $s[j - 1]$ can be replaced with character: $t[i - 1$: $f(i, j) = f(i - 1, j - 1) + 1$.
-  * Finally, one can remove character $s[j - 1])$ from the end of substring $s[0: j)$ and convert substring $s[0:j)$ to $t[0:i)$: $f(i, j) = 1 + f(i, j - 1)$.
+  * Withing string $s[0:j)$, substring $s[0:j - 1)$ can be converted to $t[0:j-1)$ and character $s[j - 1]$ can be replaced with character: $t[i - 1]$: $f(i, j) = f(i - 1, j - 1) + 1$.
+  * Finally, one can remove character $s[j - 1])$ from the end of substring $s[0: j)$ and convert substring $s[0:j-1)$ to $t[0:i)$: $f(i, j) = 1 + f(i, j - 1)$.
