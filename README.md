@@ -1,4 +1,4 @@
-# sgeos.github.io
+# meave-labs.github.io
 
 The repository for my blog at [meave-labs.github.io](https://meave-labs.github.io).
 
